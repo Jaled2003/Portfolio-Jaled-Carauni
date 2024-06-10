@@ -1,0 +1,11 @@
+Model Information:
+* title:	Planta carnivora
+* source:	https://sketchfab.com/3d-models/planta-carnivora-48c37e0a96f64aa2b5cf6138f69ef738
+* author:	jaledkarau (https://sketchfab.com/jaledkarau)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Planta carnivora" (https://sketchfab.com/3d-models/planta-carnivora-48c37e0a96f64aa2b5cf6138f69ef738) by jaledkarau (https://sketchfab.com/jaledkarau) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
