@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'SF Distant Galaxy';
+  src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf) format('truetype');
+}
+
+body {
+  background-image: url(https://e0.pxfuel.com/wallpapers/923/40/desktop-wallpaper-gaming-background-white-black-and-white-gaming.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: 'SF Distant Galaxy';
+  margin: 0;
+  padding: 0;
+}
+
+#heading {
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5); /* Para mayor legibilidad del texto */
+}
+
+.border {
+  background: linear-gradient(90deg, gray, 90%, black);
+  height: 2px;
+  width: 80vw;
+  margin: 4px auto;
+}
+
+h1 {
+  color: rgb(215, 215, 215);
+  font-size: 4em;
+  margin: 0px;
+  font-weight: 100;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 150px; /* Aumentar el espacio para el encabezado */
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  width: 100vw;
+  justify-items: center;
+}
+
+.card {
+  --size: 64px;
+  display: inline-grid;
+  place-items: center;
+  gap: 1rem;
+  grid-template-columns: var(--size) 1fr;
+  border: 5px solid #2600ff;
+  border-bottom-color: rgb(243, 247, 12);
+  border-right-color: rgb(255, 20, 20);
+  border-radius: var(--size);
+  padding: 0.5rem 1rem;
+  background: #fff;
+}
+
+.card img {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+}
+
+.card span {
+  font-family: Jost, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+
+  
+
